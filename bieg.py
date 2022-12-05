@@ -1,4 +1,4 @@
-print("Cześć! Jestem Python i policzę prędkość Twojego biegu :)")
+print("Cześć! Jestem Konrad i policzę prędkość Twojego biegu :)")
 distance = input("Ile kilometrów przebiegłeś/przebiegłaś?")
 time = input("Ile zajęło Ci to czasu (godzin)?")
 speed = int(distance) / int(time)
