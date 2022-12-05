@@ -21,7 +21,7 @@ else:
 
 # Proszę o wpisanie listy zakupów
 # rozdzielając poszczególne elementy przecinkiem
-# Następnie powiedz (wpisz), czy jest to według Cienie długa lista czy też nie
+# Następnie powiedz (wpisz), czy jest to według Ciebie długa lista czy też nie
 
 shoping_elements = input("Wprowadź listę zakupów, rozdzielając poszczególne elementy przecinkiem: ")
 shoping_elements = shoping_elements.split(",")
