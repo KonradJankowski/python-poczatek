@@ -7,7 +7,7 @@ if suppot_answear == "T":
 else:
     suppot_used = False
 
-if income < 15500 or (number_of_employees >= 3 and income < 30000 ) or (suppot_used not True) :
+if (income < 15500 or (number_of_employees >= 3 and income < 30000 ) )and (not suppot_used) :
     print(f"Możesz otrzymać dotację")
 else:
     print("Niestety nie otrzymasz dotacji")
