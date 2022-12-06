@@ -11,3 +11,19 @@ if (income < 15500 or (number_of_employees >= 3 and income < 30000 ) )and (not s
     print(f"Możesz otrzymać dotację")
 else:
     print("Niestety nie otrzymasz dotacji")
+
+#============================================================================
+
+income = 4000
+expenditures = 2000
+age = 36
+
+if age < 18 or income < expenditures:
+    print("Nie możesz wziąść kredytu")
+else:
+    print("Możesz wziąść kredyt")
+
+if not (age < 18 or income < expenditures):
+    print("Możesz wziąść kredyt")
+else:
+    print("Nie możesz wziąść kredytu")
