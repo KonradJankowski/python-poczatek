@@ -1,1 +1,3 @@
 # python-poczatek
+
+Konrad
