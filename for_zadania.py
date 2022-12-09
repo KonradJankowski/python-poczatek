@@ -10,13 +10,13 @@ while grade != "X":
     if grade != "X":
         list += grade
 suma = 0
-print(f"Oceny które wpisałem to: {list}")
+#print(f"Oceny które wpisałem to: {list}")
 for index in list:
     ocena = int(index)
     suma = suma + ocena
-    print(f"Składniowa sumy {suma}")
-print(type(ocena))
-print(type(suma))
+#    print(f"Składniowa sumy {suma}")
+#print(type(ocena))
+#rint(type(suma))
 srednia = suma / (len(list) )
 print(f"Tyle wynosi suma: {suma}")
 print(f"Dłogość listy to: {len(list)}")
