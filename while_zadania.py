@@ -18,10 +18,10 @@ print(number_clear)
 
 index = 0
 while index < len(number):
-    if index % 3 == 0 :
+    if index % 3 == 0 and index != 0:
         number_clear += "-"
 
     number_clear += number[index]
-    print(number_clear)
+#    print(number_clear)
     index += 1
 print(number_clear)
