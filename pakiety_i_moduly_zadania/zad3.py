@@ -5,6 +5,8 @@
 #  -> Oprocentowaniu
 #  -> Okresie trwania inwestycji (w latach)
 
+print(__name__)
+
 import calculations.investment
 
 def ask_for_int_value(message):
